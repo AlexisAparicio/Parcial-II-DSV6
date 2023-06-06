@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home">
+    </item>
+    <item android:id="@+id/contact"
+        android:icon="@drawable/baseline_message_24"
+        android:title="Contact">
+    </item>
+    <item android:id="@+id/gallery"
+        android:icon="@drawable/baseline_image_24"
+        android:title="Galerry">
+    </item>
+</group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/about"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="About">
+                </item>
+                <item android:id="@+id/login"
+                android:icon="@drawable/baseline_login_24"
+                android:title="login">
+            </item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Compartir">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="Compartir">
+                </item>
+            </group>
+        </menu>
+    </item>
+</menu>
