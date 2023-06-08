@@ -5,9 +5,22 @@
         android:icon="@drawable/baseline_home_24"
         android:title="Home">
     </item>
+    <item android:id="@+id/market"
+        android:icon="@drawable/baseline_storefront_24"
+        android:title="Tienda"
+        android:onClick="">
+    </item>
     <item android:id="@+id/contact"
         android:icon="@drawable/baseline_message_24"
         android:title="Contact">
+    </item>
+    <item android:id="@+id/horarios"
+        android:icon="@drawable/baseline_access_time_24"
+        android:title="Horarios">
+    </item>
+    <item android:id="@+id/ubicacion"
+        android:icon="@drawable/baseline_store_mall_directory_24"
+        android:title="Ubicación">
     </item>
     <item android:id="@+id/gallery"
         android:icon="@drawable/baseline_image_24"

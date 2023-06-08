@@ -12,6 +12,9 @@
         android:theme="@style/Theme.TiendaTunerShop"
         tools:targetApi="31">
         <activity
+            android:name=".horario"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

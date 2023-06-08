@@ -2,4 +2,5 @@
     <string name="app_name">TiendaTunerShop</string>
     <string name="open">Open Navigation Drawer</string>
     <string name="close">Close Navigation Drawer</string>
+    <string name="Bienvenida">Bienvenido estimado cliente</string>
 </resources>

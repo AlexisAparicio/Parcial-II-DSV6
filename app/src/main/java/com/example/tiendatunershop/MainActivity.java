@@ -47,6 +47,21 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,"Home Selected",Toast.LENGTH_SHORT).show();
                         break;
                     }
+                    case R.id.market:
+                    {
+                        Toast.makeText(MainActivity.this,"Market",Toast.LENGTH_SHORT).show();
+                        break;
+                    }
+                    case R.id.ubicacion:
+                    {
+                        Toast.makeText(MainActivity.this,"Ubicación",Toast.LENGTH_SHORT).show();
+                        break;
+                    }
+                    case R.id.horarios:
+                    {
+                        Toast.makeText(MainActivity.this,"Horarios",Toast.LENGTH_SHORT).show();
+                        break;
+                    }
                     case R.id.contact:
                     {
                         Toast.makeText(MainActivity.this,"Contact Selected",Toast.LENGTH_SHORT).show();
