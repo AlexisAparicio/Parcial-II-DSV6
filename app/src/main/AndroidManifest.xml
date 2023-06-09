@@ -12,6 +12,12 @@
         android:theme="@style/Theme.TiendaTunerShop"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".Store_main"
+            android:exported="false" />
+        <activity
             android:name=".horario"
             android:exported="false" />
         <activity

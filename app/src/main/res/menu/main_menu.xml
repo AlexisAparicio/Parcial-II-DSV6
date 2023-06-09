@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<group android:checkableBehavior="single">
+<group>
     <item android:id="@+id/home"
         android:icon="@drawable/baseline_home_24"
-        android:title="Home">
+        android:title="Home"
+        android:checkable="true">
     </item>
-    <item android:id="@+id/market"
-        android:icon="@drawable/baseline_storefront_24"
-        android:title="Tienda"
-        android:onClick="">
-    </item>
-    <item android:id="@+id/contact"
-        android:icon="@drawable/baseline_message_24"
-        android:title="Contact">
-    </item>
-    <item android:id="@+id/horarios"
-        android:icon="@drawable/baseline_access_time_24"
-        android:title="Horarios">
-    </item>
-    <item android:id="@+id/ubicacion"
+    <item android:id="@+id/store"
         android:icon="@drawable/baseline_store_mall_directory_24"
-        android:title="Ubicación">
-    </item>
-    <item android:id="@+id/gallery"
-        android:icon="@drawable/baseline_image_24"
-        android:title="Galerry">
+        android:title="Store"
+        android:checkable="true">
     </item>
 </group>
     <item android:title="Profile">
@@ -32,11 +17,13 @@
             <group android:checkableBehavior="single">
                 <item android:id="@+id/about"
                     android:icon="@drawable/baseline_account_circle_24"
-                    android:title="About">
+                    android:title="About"
+                    android:checkable="true">
                 </item>
-                <item android:id="@+id/login"
-                android:icon="@drawable/baseline_login_24"
-                android:title="login">
+                <item android:id="@+id/horarios"
+                android:icon="@drawable/baseline_store_mall_directory_24"
+                android:title="Horarios"
+                    android:checkable="true">
             </item>
             </group>
         </menu>
@@ -45,11 +32,13 @@
     <item android:title="Compartir">
         <menu>
             <group android:checkableBehavior="single">
-                <item android:id="@+id/share"
-                    android:icon="@drawable/baseline_share_24"
-                    android:title="Compartir">
+                <item android:id="@+id/exit"
+                    android:icon="@drawable/baseline_exit_to_app_24"
+                    android:title="Exit"
+                    android:checkable="true">
                 </item>
             </group>
         </menu>
     </item>
+
 </menu>
